@@ -10,6 +10,8 @@ cat 2007.csv /sed 's/ /, /g' |cut -d',' -f 18 2007.csv|sort|uniq -c|sort -nr|hea
 cat L2.csv L1.csv > top3.csv
 csvlook top3.csv
 
+echo  "Pardis"
+
 
 
 
